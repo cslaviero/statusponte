@@ -1,0 +1,67 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "Cleyton Slaviero",
+    "longName": "Ponte Rio-Niter\u00f3i",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/menu.png",
+                "menuIcon": true,
+                "name": "IMAGES_MENU_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/clock2.png",
+                "name": "IMAGES_CLOCK2_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/rj2.png",
+                "name": "IMAGES_RJ2_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/nit2.png",
+                "name": "IMAGES_NIT2_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Ponte",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "40898807-288b-4490-85d6-3d68f29a6968",
+    "versionCode": 1,
+    "versionLabel": "0.1",
+    "watchapp": {
+        "hiddenApp": false,
+        "watchface": false
+    }
+}
