@@ -75,10 +75,9 @@ function getDataFromImporIO(data){
 		// Success!
     console.log("Successfully fetched bridge data!");
 	
-		console.log("Result: "+data+"\n");
-		
-		var timeNit = data.split(" ")[8].split('"')[1];
-		var timeRj = data.split(" ")[12].split('"')[1];
+	
+		var timeNit = data.split(" ")[6].split('"')[1];
+		var timeRj = data.split(" ")[8].split('"')[1];
 	
 	console.log("Tempo RJ:"+timeRj);
 	console.log("Tempo NIT: "+timeNit);
@@ -91,12 +90,6 @@ function getDataFromImporIO(data){
 	textUpdate.text(time);
 	console.log("time"); 
 	
-	//	var description =sentido1+"\n"+sentido2+"\nLast Updated: "+time;
-    
-    // Show to user
-		//card.subtitle("");
-//    card.body(description);
-
 		Vibe.vibrate('short');
 		window.remove(textFetch);
 	
@@ -105,8 +98,6 @@ function getDataFromImporIO(data){
 function update()
 {
 	window.add(textFetch);
-	//card.subtitle('Fetching...');
-	//card.body('Incoming!');
 
 	ajax(
   {

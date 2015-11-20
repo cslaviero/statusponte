@@ -29,6 +29,16 @@
                 "type": "font"
             },
             {
+                "file": "images/rj2.png",
+                "name": "IMAGES_RJ2_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/nit2.png",
+                "name": "IMAGES_NIT2_PNG",
+                "type": "png"
+            },
+            {
                 "file": "images/menu.png",
                 "menuIcon": true,
                 "name": "IMAGES_MENU_PNG",
@@ -37,16 +47,6 @@
             {
                 "file": "images/clock2.png",
                 "name": "IMAGES_CLOCK2_PNG",
-                "type": "png"
-            },
-            {
-                "file": "images/rj2.png",
-                "name": "IMAGES_RJ2_PNG",
-                "type": "png"
-            },
-            {
-                "file": "images/nit2.png",
-                "name": "IMAGES_NIT2_PNG",
                 "type": "png"
             }
         ]
