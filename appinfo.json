@@ -1,52 +1,30 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "KEY_AGUARDE": 2,
+        "KEY_NIT": 0,
+        "KEY_RJ": 1
+    },
     "capabilities": [
-        "location"
+        ""
     ],
-    "companyName": "Cleyton Slaviero",
-    "longName": "Ponte Rio-Niter\u00f3i",
-    "projectType": "pebblejs",
+    "companyName": "cslaviero@gmail.com",
+    "longName": "Status Ponte Rio-Niter\u00f3i",
+    "projectType": "native",
     "resources": {
         "media": [
             {
-                "file": "images/menu_icon.png",
-                "name": "IMAGE_MENU_ICON",
+                "file": "images/clock2.png",
+                "name": "IMG_CLOCK",
                 "type": "png"
-            },
-            {
-                "file": "images/logo_splash.png",
-                "name": "IMAGE_LOGO_SPLASH",
-                "type": "png"
-            },
-            {
-                "file": "images/tile_splash.png",
-                "name": "IMAGE_TILE_SPLASH",
-                "type": "png"
-            },
-            {
-                "file": "fonts/UbuntuMono-Regular.ttf",
-                "name": "MONO_FONT_14",
-                "type": "font"
             },
             {
                 "file": "images/rj2.png",
-                "name": "IMAGES_RJ2_PNG",
+                "name": "IMG_RJ",
                 "type": "png"
             },
             {
                 "file": "images/nit2.png",
-                "name": "IMAGES_NIT2_PNG",
-                "type": "png"
-            },
-            {
-                "file": "images/menu.png",
-                "menuIcon": true,
-                "name": "IMAGES_MENU_PNG",
-                "type": "png"
-            },
-            {
-                "file": "images/clock2.png",
-                "name": "IMAGES_CLOCK2_PNG",
+                "name": "IMG_NIT",
                 "type": "png"
             }
         ]
@@ -55,13 +33,12 @@
     "shortName": "Ponte",
     "targetPlatforms": [
         "aplite",
-        "basalt"
+        "basalt",
+        "chalk"
     ],
-    "uuid": "40898807-288b-4490-85d6-3d68f29a6968",
-    "versionCode": 1,
-    "versionLabel": "0.1",
+    "uuid": "5cca7174-f7c8-45a5-bbc0-576d6b22bd57",
+    "versionLabel": "0.3",
     "watchapp": {
-        "hiddenApp": false,
         "watchface": false
     }
 }
